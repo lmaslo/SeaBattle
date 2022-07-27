@@ -4,7 +4,7 @@ public class SimpleDotComGame {
 
         int numOfGuesses=0;
 
-        GameHelper helper=newGameHelper();
+        GameHelper helper = new GameHelper();
 
         SimpleDotCom theDotCom=new SimpleDotCom();
 
@@ -20,13 +20,8 @@ public class SimpleDotComGame {
             numOfGuesses++;
             if(result.equals("Потопил")){
                 isActive=false;
-                System.out.println("Вам потребовалось"+ numOfGuesses+"попыток(и)");
+                System.out.println("Вам потребовалось "+ numOfGuesses+" попыток(и)");
             }
         }
-
-
-        // счетчик ходов
-
-        // после цикла выводим количество попыток
     }
 }
